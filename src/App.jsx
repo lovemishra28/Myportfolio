@@ -16,7 +16,7 @@ function App() {
           </header>
           <div className="content text-white flex grow relative justify-start items-center ">
             <div className="contentLeft absolute pl-60 top-1/5 mt-23">
-              <div className="name relative text-xl text-red-400 w-fit p-2">
+              <div className="name relative text-xl text-custom-orange w-fit p-2">
                 Love Mishra
               </div>
               <div className="role text-7xl">
@@ -60,7 +60,7 @@ function App() {
               <div className="w-14/20 aspect-square absolute -left-8  p-5">
                 <img className="w-full h-full" src="./public/love.jpg" alt="" />
               </div>
-              <div className="w-12/20 bottom-25 -left-12 absolute aspect-square border-8 border-red-400"></div>
+              <div className="w-12/20 bottom-25 -left-12 absolute aspect-square border-8 border-yellow-400"></div>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ function App() {
                       <h1 className="z-20 pr-4">2024-2025</h1>
                     </div>
                     <h1 className=" text-left text-2xl ">Frontend side ltd.</h1>
-                    <p className="exp relative pl-11 text-red-400">
+                    <p className="exp relative pl-11 text-yellow-400">
                       XYZ Intership
                     </p>
                     <ol className="list-disc pl-4">
@@ -107,7 +107,7 @@ function App() {
                       <h1 className="z-20 pr-4">2024-2025</h1>
                     </div>
                     <h1 className=" text-left text-2xl ">Backend side ltd.</h1>
-                    <p className="exp relative pl-11 text-red-400">
+                    <p className="exp relative pl-11 text-yellow-400">
                       ABC Intership
                     </p>
                     <ol className="list-disc pl-4">
@@ -201,8 +201,8 @@ function App() {
         {/* ------------------------------ */}
         {/* Contact Me  */}
         <div className="subContainer bg-black text-white p-2 ">
-          <div className="content">
-            <div className="contentLeft flex flex-col pt-50 pl-60">
+          <div className="content  flex justify-around items-center">
+            <div className="contentLeft w-1/2 pt-50 pl-60">
               <div className="serial relative text-left w-1/2 pl-14 text-2xl font-bold mb-4">
                 05
               </div>
@@ -222,7 +222,7 @@ function App() {
                     </span>
                   </li>
                 </ul>
-                <div className="flex flex-col items-baseline w-1/10">
+                <div className="flex flex-col items-baseline w-1/4">
                   <h1 className="pt-4 pb-4 text-2xl w-max">Social Networks</h1>
                   <div className="socialImages flex justify-around ml-4 w-full gap-2">
                     <a
@@ -262,6 +262,13 @@ function App() {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="contentRight w-1/2 relative">
+              <img
+                src="./public/Contacts3.png"
+                alt=""
+                className="absolute w-1/2 left-3/10 top-18/20"
+              />
             </div>
           </div>
         </div>
