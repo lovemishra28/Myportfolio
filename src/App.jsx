@@ -6,20 +6,18 @@ function App() {
       <div className="Mazorcontainer border-2 cursor-default w-full">
         {/* frontDisplay */}
         <div className="subContainer bg-black flex flex-col border-2 p-2">
-          <header className="header  text-white flex justify-center items-center fixed left-0 top-0 right-0 h-1/7  z-100 ">
-            <navbar className="list-none flex justify-center items-center ">
-              <li className="p-4 font-bold text-center">About</li>
-              <li className="p-4 font-bold text-center">Experience</li>
-              <li className="p-4 font-bold text-center">Projects</li>
-              <li className="p-4 font-bold text-center">Contacts</li>
-            </navbar>
+          <header className="header w-screen list-none text-white flex justify-center items-center fixed top-0 h-1/7  z-100 ">
+            <li className="p-2 md:p-4 font-bold text-center">About</li>
+            <li className="p-2 md:p-4 font-bold text-center">Experience</li>
+            <li className="p-2 md:p-4 font-bold text-center">Projects</li>
+            <li className="p-2 md:p-4 font-bold text-center">Contacts</li>
           </header>
-          <div className="content text-white flex grow relative justify-start items-center ">
-            <div className="contentLeft absolute pl-60 top-1/5 mt-23">
-              <div className="name relative text-xl text-custom-orange w-fit p-2">
+          <div className="content text-white flex grow relative justify-start min-h-screen items-center ">
+            <div className="contentLeft absolute md:pl-60  md:pt-0 pl-6 mt-23 md:text-left mx-auto md:mx-0">
+              <div className="name relative text-xl text-yellow-300 w-fit p-2">
                 Love Mishra
               </div>
-              <div className="role text-7xl">
+              <div className="role text-5xl md:text-7xl">
                 FullStack
                 <br />
                 Developer
@@ -30,18 +28,18 @@ function App() {
         {/* ------------------------------ */}
         {/* About me  */}
         <div className="subContainer bg-black text-white  p-2 flex">
-          <div className="content flex ">
-            <div className="contentLeft flex flex-col justify-center pl-60 w-12/20">
+          <div className="content flex flex-col md:flex-row items-center">
+            <div className="contentLeft flex flex-col justify-center w-full md:w-7/12 px-6 py-10 md:pl-60">
               <div className="serial relative text-left w-1/2 pl-14 text-2xl font-bold mb-4">
                 01
               </div>
-              <div className="w-1/2">
-                <h1 className="text-left text-6xl pb-7">
+              <div className="w-full md:w-1/2">
+                <h1 className="text-left text-5xl md:text-6xl pb-7">
                   Know <br />
                   About me
                 </h1>
               </div>
-              <div className="text-left w-16/20 text-wrap">
+              <div className="text-left w-full md:w-16/20 text-wrap">
                 Hello! I'm Love Mishra, a developer and creator driven by a
                 passion for building things that work in both the digital and
                 physical worlds. My expertise includes full-stack JavaScript
@@ -56,11 +54,11 @@ function App() {
                 smart, connected devices.
               </div>
             </div>
-            <div className="contentRight flex justify-center relative items-center  w-8/20">
-              <div className="w-14/20 aspect-square absolute -left-8  p-5">
+            <div className="contentRight flex justify-center relative items-center w-full md:w-5/12 p-10 md:p-0">
+              <div className="relative w-3/4 md:w-10/12 lg:w-8/12">
+                <div className="absolute top-4 left-4 w-full aspect-square border-8 border-yellow-400"></div>
                 <img className="w-full h-full" src="./public/love.jpg" alt="" />
               </div>
-              <div className="w-12/20 bottom-25 -left-12 absolute aspect-square border-8 border-yellow-400"></div>
             </div>
           </div>
         </div>
@@ -68,7 +66,7 @@ function App() {
         {/* My Experience */}
         <div className="subContainer bg-black border-2 p-2 ">
           <div className="content text-white flex-col grow relative justify-start items-center">
-            <div className="contentLeft pt-50 pl-60">
+            <div className="contentLeft pt-10 md:pt-20 px-6 md:pl-60">
               <div className="serial relative text-left w-1/2 pl-14 text-2xl font-bold mb-4">
                 02
               </div>
@@ -134,14 +132,14 @@ function App() {
         {/* My skills */}
         <div className="subContainer bg-black text-white p-2 ">
           <div className="content">
-            <div className="contentLeft pt-50 pl-60">
+            <div className="contentLeft pt-10 md:pt-20 px-6 md:p-60">
               <div className="serial relative text-left w-1/2 pl-14 text-2xl font-bold mb-4">
                 03
               </div>
-              <h1 className="text-left text-6xl pb-7">
+              <h1 className="text-left text-5xl md:text-6xl pb-7">
                 My <br /> Skills
               </h1>
-              <div className="list-none  gap-4 grid grid-cols-3 relative p-5 mt-5">
+              <div className="list-none  gap-4 grid grid-cols-2 md:grid-cols-3 relative p-5 mt-5">
                 <div className="skills pl-12 w-full min-h-30 max-h-30 relative flex">
                   <span className="timeline"></span>
                   HTML
@@ -178,15 +176,15 @@ function App() {
         {/* My Projects */}
         <div className="subContainer bg-black text-white  p-2 ">
           <div className="content">
-            <div className="contentLeft flex flex-col pt-50 pl-60">
+            <div className="contentLeft flex flex-col pt-10 md:pt-20 px-6 md:pl-60">
               <div className="serial relative text-left w-1/2 pl-14 text-2xl font-bold mb-4">
                 04
               </div>
-              <h1 className="text-left text-6xl pb-7">
+              <h1 className="text-left text-5xl md:text-6xl pb-7">
                 My <br /> Projects
               </h1>
-              <div className="w-full pt-20 flex justify-start items-center">
-                <div className="Projects grid grid-cols-3 w-16/20 gap-1 ">
+              <div className="w-full pt-10 md:pt-20 flex justify-start items-center">
+                <div className="Projects grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full md:w-5/6 gap-2 ">
                   <div className="aspect-video h-full relative bg-linear-to-r from-yellow-500 via-orange-500 to-red-500"></div>
                   <div className="aspect-video h-full  bg-linear-to-r from-green-500 via-emerald-500 to-teal-500"></div>
                   <div className="aspect-video h-full  bg-[linear-gradient(60deg,rgb(247,149,51),rgb(243,112,85),rgb(239,78,123),rgb(161,102,171),rgb(80,115,184),rgb(16,152,173),rgb(7,179,155),rgb(111,186,130))]  "></div>
@@ -201,12 +199,12 @@ function App() {
         {/* ------------------------------ */}
         {/* Contact Me  */}
         <div className="subContainer bg-black text-white p-2 ">
-          <div className="content  flex justify-around items-center">
-            <div className="contentLeft w-1/2 pt-50 pl-60">
+          <div className="content  flex flex-col md:flex-row justify-around items-center">
+            <div className="contentLeft w-full md:w-1/2 pt-10 md:pt-20 px-6 md:pl-60">
               <div className="serial relative text-left w-1/2 pl-14 text-2xl font-bold mb-4">
                 05
               </div>
-              <h1 className="text-left text-6xl pb-7">Contact Me</h1>
+              <h1 className="text-left text-5xl md:text-6xl pb-7">Contact Me</h1>
               <div className="Contacts">
                 <ul>
                   <li className="p-4 text-3xl">
@@ -263,11 +261,11 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="contentRight w-1/2 relative">
+            <div className="contentRight w-full md:w-1/2 relative flex justify-center items-center p-10">
               <img
                 src="./public/Contacts3.png"
                 alt=""
-                className="absolute w-1/2 left-3/10 top-18/20"
+                className="w-1/2 left-3/10 top-18/20"
               />
             </div>
           </div>
