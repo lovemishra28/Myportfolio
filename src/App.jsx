@@ -239,7 +239,7 @@ function App() {
                     <p className="exp relative pl-11 text-yellow-400">
                       College Projects
                     </p>
-                    <ol className="list-disc pl-4 w-7/10">
+                    <ol className="list-disc pl-4 md:w-7/10">
                       <li className="wrap-normal">
                         Developed and maintained responsive, user-friendly
                         interfaces for a client-facing web application using
@@ -266,7 +266,7 @@ function App() {
                     <p className="exp relative pl-11 text-yellow-400">
                       Slef Learning
                     </p>
-                    <ol className="list-disc pl-4 w-7/10">
+                    <ol className="list-disc pl-4 md:w-7/10">
                       <li className="wrap-normal">
                         Built and maintained secure, scalable RESTful APIs using
                         Node.js and Express.js to support new features for the
