@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -6,83 +6,83 @@
   min-height: 100vh;
 }
 
-.header{
+.header {
   backdrop-filter: blur(10px);
 }
 
-.name::before{
+.name::before {
   position: absolute;
   display: block;
   content: "";
   width: 0px;
   height: 2px;
-  background-color: #FDC700;
+  background-color: #fdc700;
   left: 10px;
   bottom: 0;
   transition: all 500ms;
 }
-.serial::before{
+.serial::before {
   position: absolute;
   display: block;
   content: "";
   width: 40px;
   height: 2px;
-  background-color: #FDC700;
+  background-color: #fdc700;
   left: 10px;
   top: 50%;
   transition: all 500ms;
 }
-.exp::before{
+.exp::before {
   position: absolute;
   display: block;
   content: "";
   width: 40px;
   height: 2px;
-  background-color: #FDC700;
+  background-color: #fdc700;
   left: 0px;
   top: 50%;
   transition: all 500ms;
 }
 
-.exp-duration::before{
+.exp-duration::before {
   position: absolute;
   display: block;
   content: "";
   width: 30px;
   height: 30px;
-  background-color: #FDC700;
+  background-color: #fdc700;
   transform: rotate(45deg);
   left: -60px;
   top: 35%;
   transition: all 500ms;
 }
 
-.cover{
+.cover {
   position: absolute;
   display: block;
   content: "";
   width: 0px;
   height: 30px;
-  background-color: #FDC700;
+  background-color: #fdc700;
   left: 0;
   top: 35%;
   transition: all 500ms;
 }
 
-.skills::before{
+.skills::before {
   position: absolute;
   display: block;
   content: "";
   width: 30px;
   height: 30px;
   transform: rotate(45deg);
-  background-color: #FDC700;
+  background-color: #fdc700;
   left: -2px;
   z-index: 2;
   transition: all 500ms;
 }
 
-.timeline{
+.timeline {
   position: absolute;
   display: block;
   content: "";
@@ -93,18 +93,18 @@
   top: 20px;
 }
 
-.skills:hover::before{
+.skills:hover::before {
   transform: rotate(135deg);
 }
 
 .exp-list:hover .exp-duration::before {
   transform: rotate(135deg);
 }
-.exp-list:hover .cover{
-  width:100%;
+.exp-list:hover .cover {
+  width: 100%;
 }
 
-.expContent::before{
+.expContent::before {
   position: absolute;
   display: block;
   content: "";
@@ -114,14 +114,43 @@
   left: 53.9px;
 }
 
-
-.name:hover::before{
+.name:hover::before {
   position: absolute;
   display: block;
   content: "";
   width: 100%;
   height: 2px;
-  background-color: #FDC700;
+  background-color: #fdc700;
   left: 10px;
   bottom: 0;
 }
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 800ms ease-out, transform 800ms ease-out;
+}
+.animate-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.animate-on-scroll-left {
+  opacity: 0;
+  transform: translateX(80px);
+  transition: opacity 800ms ease-out, transform 800ms ease-out;
+}
+.animate-on-scroll-left.is-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+.animate-on-scroll-right {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 1000ms ease-out, transform 800ms ease-out;
+}
+.animate-on-scroll-right.is-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
