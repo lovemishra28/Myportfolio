@@ -212,7 +212,7 @@ function App() {
             <div className="contentRight animate-on-scroll-left flex justify-center relative items-center w-full md:w-5/12 p-10 md:p-0">
               <div className="relative w-3/4 md:w-10/12 lg:w-8/12">
                 <div className="absolute animate-on-scroll-right top-4 left-4 w-full aspect-square border-8 border-yellow-400"></div>
-                <img className="w-full h-full" src="./public/love.jpg" alt="" />
+                <img className="w-full h-full" src="/love.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -395,7 +395,7 @@ function App() {
                     >
                       <img
                         className="w-full flex justify-center items-center rounded-full"
-                        src="./public/Instagram_icon.png"
+                        src="/Instagram_icon.png"
                         alt=""
                       />
                     </a>
@@ -407,7 +407,7 @@ function App() {
                       {" "}
                       <img
                         className="w-full flex justify-center items-center rounded-full"
-                        src="./public/Github_icon.png"
+                        src="/Github_icon.png"
                         alt=""
                       />
                     </a>
@@ -418,7 +418,7 @@ function App() {
                     >
                       <img
                         className="w-full flex justify-center items-center rounded-full"
-                        src="./public/Linkedin_icon.png"
+                        src="/Linkedin_icon.png"
                         alt=""
                       />
                     </a>
@@ -428,7 +428,7 @@ function App() {
             </div>
             <div className="contentRight animate-on-scroll w-full md:w-1/2 relative flex justify-center items-center p-10">
               <img
-                src="./public/Contacts3.png"
+                src="/Contacts3.png"
                 alt=""
                 className="w-1/2 left-3/10 top-18/20"
               />
