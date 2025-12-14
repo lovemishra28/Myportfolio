@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import project1 from "./assets/project1.png";
 import "./App.css";
 
 function App() {
@@ -96,19 +97,18 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if(window.scrollY > 50)
-      {
-        setIsScrolled(true)
-      }else{
-        setIsScrolled(false)
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
       }
-    }
+    };
 
-    window.addEventListener("scroll", handleScroll)
+    window.addEventListener("scroll", handleScroll);
 
-    return () =>{
-      window.removeEventListener("scroll", handleScroll)
-    }
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return (
@@ -119,7 +119,13 @@ function App() {
           id="home"
           className="subContainer bg-black flex flex-col border-2 p-2"
         >
-          <header className={`header w-screen list-none text-white flex justify-center items-center fixed top-0 left-0 h-1/7  z-100 transition-all duration-300 ${isScrolled ? "border-b h-1/11 border-yellow-300 ": "border-b-2 border-transparent"}`}>
+          <header
+            className={`header w-screen list-none text-white flex justify-center items-center fixed top-0 left-0 h-1/7  z-100 transition-all duration-300 ${
+              isScrolled
+                ? "border-b h-1/11 border-yellow-300 "
+                : "border-b-2 border-transparent"
+            }`}
+          >
             <li className="p-2 md:p-4 font-bold text-center hover:text-yellow-300">
               <a
                 href="#about"
@@ -346,7 +352,20 @@ function App() {
               </h1>
               <div className="w-full pt-10 md:pt-20 flex justify-start items-center">
                 <div className="Projects grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full md:w-5/6 gap-2 ">
-                  <div className="aspect-video animate-on-scroll h-full relative bg-linear-to-r from-yellow-500 via-orange-500 to-red-500"></div>
+                  <div className="aspect-video animate-on-scroll overflow-hidden h-full relative bg-linear-to-r from-yellow-500 via-orange-500 to-red-500">
+                    <a
+                      href="https://joon-trk4.vercel.app/"
+                      className="block w-full h-full relative group"
+                    >
+                      <div
+                        className="w-full h-full bg-cover transition-transform duration-300 group-hover:scale-110 blur-sm"
+                        style={{ backgroundImage: `url(${project1})` }}
+                      ></div>
+                      <div className="absolute top-1/2 z-10 p-5 text-2xl w-max font-semibold text-black">
+                        Joon <br /> ecommerce website
+                      </div>
+                    </a>
+                  </div>
                   <div className="aspect-video animate-on-scroll h-full  bg-linear-to-r from-green-500 via-emerald-500 to-teal-500"></div>
                   <div className="aspect-video animate-on-scroll h-full  bg-[linear-gradient(60deg,rgb(247,149,51),rgb(243,112,85),rgb(239,78,123),rgb(161,102,171),rgb(80,115,184),rgb(16,152,173),rgb(7,179,155),rgb(111,186,130))]  "></div>
                   <div className="aspect-video animate-on-scroll h-full relative bg-linear-to-r from-indigo-500 via-blue-500 to-cyan-500"></div>
