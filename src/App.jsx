@@ -335,8 +335,9 @@ function App() {
                 </div>
                 <div className="skills animate-on-scroll pl-12 w-full min-h-30 max-h-30 relative">
                   <span className="timeline"></span>
-                  AndroidDev
+                  Next JS
                 </div>
+                
               </div>
             </div>
           </div>
