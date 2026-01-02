@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import project1 from "./assets/project1.png";
+import project2 from "./assets/project2.png";
+import project3 from "./assets/project3.png";
 import "./App.css";
 
 function App() {
@@ -356,18 +358,49 @@ function App() {
                     <a
                       href="https://joon-trk4.vercel.app/"
                       className="block w-full h-full relative group"
+                      target="_blank"
                     >
                       <div
                         className="w-full h-full bg-cover transition-transform duration-300 group-hover:scale-110 blur-sm"
                         style={{ backgroundImage: `url(${project1})` }}
                       ></div>
-                      <div className="absolute top-1/2 z-10 p-5 text-2xl w-max font-semibold text-black">
+                      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 p-4 bg-black/60 rounded-xl text-2xl w-max font-semibold text-white text-center shadow-lg">
                         Joon <br /> ecommerce website
                       </div>
                     </a>
                   </div>
-                  <div className="aspect-video animate-on-scroll h-full  bg-linear-to-r from-green-500 via-emerald-500 to-teal-500"></div>
-                  <div className="aspect-video animate-on-scroll h-full  bg-[linear-gradient(60deg,rgb(247,149,51),rgb(243,112,85),rgb(239,78,123),rgb(161,102,171),rgb(80,115,184),rgb(16,152,173),rgb(7,179,155),rgb(111,186,130))]  "></div>
+                  <div className="aspect-video animate-on-scroll overflow-hidden h-full relative bg-linear-to-r from-yellow-500 via-orange-500 to-red-500">
+                    <a
+                      href="https://campus-share-topaz.vercel.app/"
+                      className="block w-full h-full relative group"
+                      target="_blank"
+                    >
+                      <div
+                        className="w-full h-full bg-cover transition-transform duration-300 group-hover:scale-110 blur-sm"
+                        style={{ backgroundImage: `url(${project3})` }}
+                      ></div>
+                      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 p-4 bg-black/60 rounded-xl text-2xl w-max font-semibold text-white text-center shadow-lg">
+                        CampurShare <br /> Sharing is caring
+                      </div>
+                    </a>
+                  </div>
+                  <div className="aspect-video animate-on-scroll overflow-hidden h-full relative bg-linear-to-r from-yellow-500 via-orange-500 to-red-500">
+                    <a
+                      href="https://secure-vault-one-phi.vercel.app/"
+                      className="block w-full h-full relative group"
+                      target="_blank"
+                    >
+                      <div
+                        className="w-full h-full bg-cover transition-transform duration-300 group-hover:scale-110 blur-sm"
+                        style={{ backgroundImage: `url(${project2})` }}
+                      ></div>
+                      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 p-4 bg-black/60 rounded-xl text-2xl w-max font-semibold text-white text-center shadow-lg">
+                        Secure-vault <br /> Password Manager
+                      </div>
+                    </a>
+                  </div>
+                  {/* <div className="aspect-video animate-on-scroll h-full  bg-linear-to-r from-green-500 via-emerald-500 to-teal-500"></div> */}
+                  {/* <div className="aspect-video animate-on-scroll h-full  bg-[linear-gradient(60deg,rgb(247,149,51),rgb(243,112,85),rgb(239,78,123),rgb(161,102,171),rgb(80,115,184),rgb(16,152,173),rgb(7,179,155),rgb(111,186,130))]  "></div> */}
                   <div className="aspect-video animate-on-scroll h-full relative bg-linear-to-r from-indigo-500 via-blue-500 to-cyan-500"></div>
                   <div className="aspect-video animate-on-scroll h-full relative bg-linear-to-r from-lime-500 via-green-500 to-emerald-500"></div>
                   <div className="aspect-video animate-on-scroll h-full relative bg-linear-to-r from-gray-300 via-yellow-500 to-amber-400"></div>
@@ -408,7 +441,7 @@ function App() {
                   </h1>
                   <div className="socialImages animate-on-scroll flex justify-around ml-4 w-full gap-2">
                     <a
-                      href="https://www.instagram.com/l.0.v.e_16/"
+                      href="https://www.instagram.com/truelove.006/"
                       className="flex justify-center items-center w-15"
                       target="blank"
                     >
