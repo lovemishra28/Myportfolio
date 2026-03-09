@@ -205,13 +205,13 @@ function App() {
               <div className="text-left w-full md:w-16/20 text-wrap">
                 Hello! I'm Love Mishra, a developer and creator driven by a
                 passion for building things that work in both the digital and
-                physical worlds. My expertise includes full-stack JavaScript
+                physical worlds.<br/> My expertise includes full-stack JavaScript
                 development, where I use the MERN stack (MongoDB, Express.js,
                 React, Node.js) to build seamless web applications and React
-                Native for cross-platform mobile experiences. Beyond the screen,
+                Native for cross-platform mobile experiences. <br/>Beyond the screen,
                 I have a deep fascination with the Internet of Things. I love
                 the challenge of programming hardware like Arduino and ESP32 to
-                bring ideas to real life. Currently my ongoing journey is
+                bring ideas to real life. <br/>Currently my ongoing journey is
                 leading me toward the exciting world of Artificial Intelligence,
                 where I aim to combine my software and hardware skills to build
                 smart, connected devices.
@@ -234,7 +234,7 @@ function App() {
                 02
               </div>
               <h1 className="text-left text-6xl pb-7">
-                My <br /> Experience
+                Development <br /> Experience
               </h1>
               <div className="expContent relative pl-20">
                 <ol>
@@ -249,19 +249,13 @@ function App() {
                     </p>
                     <ol className="list-disc pl-4 md:w-7/10">
                       <li className="wrap-normal">
-                        Developed and maintained responsive, user-friendly
-                        interfaces for a client-facing web application using
-                        React.js and Tailwind CSS.
+                        Built responsive web interfaces using React, Next.js, and Tailwind CSS for modern full-stack applications.
                       </li>
                       <li className="wrap-normal">
-                        Integrated third-party REST APIs to fetch and display
-                        dynamic data, managing complex application state using
-                        React's Context API.
+                        Developed interactive dashboards, catalogs, and dynamic UI components connected to backend APIs.
                       </li>
                       <li className="wrap-normal">
-                        Collaborated closely with UI/UX designers to translate
-                        Figma mockups into pixel-perfect, interactive
-                        components.
+                        Implemented state management, theme switching, and responsive layouts for smooth cross-device user experience.
                       </li>
                     </ol>
                   </li>
@@ -272,23 +266,17 @@ function App() {
                     </div>
                     <h1 className=" text-left text-2xl ">Backend Part</h1>
                     <p className="exp relative pl-11 text-yellow-400">
-                      Slef Learning
+                      Self Learning
                     </p>
                     <ol className="list-disc pl-4 md:w-7/10">
                       <li className="wrap-normal">
-                        Built and maintained secure, scalable RESTful APIs using
-                        Node.js and Express.js to support new features for the
-                        main platform.
+                        Developed RESTful APIs using Node.js and Express.js for authentication, transactions, and data management.
                       </li>
                       <li className="wrap-normal">
-                        Designed and implemented MongoDB database schemas,
-                        writing efficient aggregation pipelines for complex data
-                        retrieval.
+                        Designed MongoDB and PostgreSQL schemas to support scalable application data structures.
                       </li>
                       <li className="wrap-normal">
-                        Implemented user authentication and authorization flows
-                        using JSON Web Tokens (JWT) to secure critical
-                        application endpoints.
+                        Implemented secure authentication systems using JWT, bcrypt, and role-based access control.
                       </li>
                     </ol>
                   </li>
@@ -335,11 +323,26 @@ function App() {
                 </div>
                 <div className="skills animate-on-scroll pl-12 w-full min-h-30 max-h-30 relative">
                   <span className="timeline"></span>
+                  <span className="timeline"></span>
+                  <span className="timeline"></span>
+                  <span className="timeline"></span>
                   Next JS
                 </div>
                 <div className="skills animate-on-scroll pl-12 w-full min-h-30 max-h-30 relative">
                   <span className="timeline"></span>
-                  AndroidDev
+                  C++
+                </div>
+                <div className="skills animate-on-scroll pl-12 w-full min-h-30 max-h-30 relative">
+                  <span className="timeline"></span>
+                  Python
+                </div>
+                <div className="skills animate-on-scroll pl-12 w-full min-h-30 max-h-30 relative">
+                  <span className="timeline"></span>
+                  MongoDB
+                </div>
+                <div className="skills animate-on-scroll pl-12 w-full min-h-30 max-h-30 relative">
+                  <span className="timeline"></span>
+                  PostgresSQL
                 </div>
               </div>
             </div>
@@ -405,9 +408,9 @@ function App() {
                   </div>
                   {/* <div className="aspect-video animate-on-scroll h-full  bg-linear-to-r from-green-500 via-emerald-500 to-teal-500"></div> */}
                   {/* <div className="aspect-video animate-on-scroll h-full  bg-[linear-gradient(60deg,rgb(247,149,51),rgb(243,112,85),rgb(239,78,123),rgb(161,102,171),rgb(80,115,184),rgb(16,152,173),rgb(7,179,155),rgb(111,186,130))]  "></div> */}
-                  <div className="aspect-video animate-on-scroll h-full relative bg-linear-to-r from-indigo-500 via-blue-500 to-cyan-500"></div>
+                  {/* <div className="aspect-video animate-on-scroll h-full relative bg-linear-to-r from-indigo-500 via-blue-500 to-cyan-500"></div>
                   <div className="aspect-video animate-on-scroll h-full relative bg-linear-to-r from-lime-500 via-green-500 to-emerald-500"></div>
-                  <div className="aspect-video animate-on-scroll h-full relative bg-linear-to-r from-gray-300 via-yellow-500 to-amber-400"></div>
+                  <div className="aspect-video animate-on-scroll h-full relative bg-linear-to-r from-gray-300 via-yellow-500 to-amber-400"></div> */}
                 </div>
               </div>
             </div>
@@ -422,7 +425,7 @@ function App() {
                 05
               </div>
               <h1 className="text-left text-5xl md:text-6xl pb-7">
-                Contact Me
+                Get in Touch
               </h1>
               <div className="Contacts">
                 <ul className="animate-on-scroll">
